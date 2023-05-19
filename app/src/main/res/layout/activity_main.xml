@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:text="Sign in"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="8dp"
+            android:paddingStart="14dp"
+            android:text="in publishing  and grapich, lorep ipsun jskalfj lksajdfkfdhaf"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/isUsername"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingStart="24dp" />
+
+        <EditText
+            android:id="@+id/isPassword"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="24dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/rounded_corner"
+            android:text="GAs" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
